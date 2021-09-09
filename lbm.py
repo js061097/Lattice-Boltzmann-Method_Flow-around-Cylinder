@@ -24,7 +24,7 @@ for i in idxs:
   F[:,:,i] *= rho_0 / rho
 
 #Boundary
-cylinder = (X - nx/4)**2 + (Y - ny/2)**2 < (ny/4)**2
+cylinder = (X - nx/4)**2 + (Y - ny/2)**2 < (ny/4)**2   #Centre of cylinder is at nx/4 units from left edge and central vertically in the domain
 
 
 #Simulation with time
